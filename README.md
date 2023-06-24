@@ -8,8 +8,39 @@ represents a snake or ladder, they will be transported ahead or behind,
 respectively, to a new square.
 
 ## How to install and run
-
-
+1. Install conda if not installed
+2. Open Anaconda Powershell Promt (on Windows) and install 
+[poetry](https://python-poetry.org/docs/#installing-with-the-official-installer) if not installed
+3. Add poetry to PATH
+4. Create new conda environment
+```
+conda create --name env-snakes-and-ladders
+```
+5. Activate new environment
+```
+conda activate env-snakes-and-ladders
+```
+6. Install python in the environment
+```
+conda install python=3.10
+```
+7. Install poetry packages
+```
+poetry install
+```
+8. Run the example problem:
+```
+python main.py
+```
+9. Run the tests:
+```
+pytest tests
+```
+10. Run linting:
+```
+mypy .
+pylint main.py snakes_and_ladders tests
+```
 ## Materials used for this task:
 1. [Breadth First Search (BFS)](https://youtu.be/xlVX7dXLS64)
 2. [Snakes and Ladders detailed description](https://www.geeksforgeeks.org/snake-ladder-problem-2/)
