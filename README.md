@@ -8,10 +8,16 @@ represents a snake or ladder, they will be transported ahead or behind,
 respectively, to a new square.
 
 ## How to install and run
-1. Install conda if not installed
-2. Open Anaconda Powershell Promt (on Windows) and install 
+1. If not already installed, install [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+2. (On Linux) If not already installed, install [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer) 
+by running 
+```
+curl -sSL https://install.python-poetry.org | python3 -
+```
+2. (On Windows) Open Anaconda Powershell Promt and install 
 [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer) if not installed
-3. Add poetry to PATH
+
+3. Add poetry to PATH if not added during intallation
 4. Create new conda environment
 ```
 conda create --name env-snakes-and-ladders

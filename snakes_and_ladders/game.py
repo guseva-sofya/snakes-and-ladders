@@ -27,6 +27,8 @@ def find_minimum_number_of_steps(
 
     Returns:
 
+    Raises:
+
     """
 
     queue: Queue[QueueItem] = Queue()
