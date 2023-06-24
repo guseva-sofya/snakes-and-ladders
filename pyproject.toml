@@ -10,6 +10,7 @@ packages = [{include = "snakes_and_ladders"}]
 python = "^3.10"
 pytest = "^7.4.0"
 mypy = "^1.4.0"
+pylint = "^2.17.4"
 
 
 [build-system]
