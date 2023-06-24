@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "snakes-and-ladders"
+version = "0.1.0"
+description = ""
+authors = ["guseva-sofya <guseva.sofya.p@gmail.com>"]
+readme = "README.md"
+packages = [{include = "snakes_and_ladders"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+mypy = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
