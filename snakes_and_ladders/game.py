@@ -48,8 +48,9 @@ def find_minimum_number_of_steps(
                 if neighbor not in visited_vertices:
                     queue.put(QueueItem(neighbor, current_item.distance_to_start + 1))
 
-    raise Exception(
-        "Could not find shortest path from start to end: this can happen if there is no path between start and end."
+    raise RuntimeError(
+        "Could not find shortest path from start to end: this can happen if \
+        there is no path between start and end."
     )
 
 
