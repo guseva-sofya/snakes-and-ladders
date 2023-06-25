@@ -2,6 +2,7 @@ from snakes_and_ladders import game
 
 
 def main() -> None:
+    """Runs snakes and ladders game."""
     start = 0
     end = 99
     snakes = {
@@ -33,5 +34,6 @@ def main() -> None:
     print("Minimum number of steps to win the game is:", number_of_steps)
 
 
+# prevents execution of main function when importing main.py in other files
 if __name__ == "__main__":
     main()
